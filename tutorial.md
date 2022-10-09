@@ -8,3 +8,9 @@ we do this all the time with django.
 > git add .
 > git commit -m "..."
 > exit
+
+> django-admin startproject mysite .
+
+> python manage.py runserver 0.0.0.0:8000
+
+> python manage.py migrate
